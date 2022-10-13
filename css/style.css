@@ -69,20 +69,13 @@ a:link, a:visited {
     justify-content: center;
 }
 .parrafo1 {
-    width: 70%;
     font-family: 'Lato', sans-serif;
-    text-align: center;
-    font-size: 2.7rem;  
+    text-align: justify;
+    font-size:1rem; 
     margin-left: 7rem;   
 }
 
-.parrafo2 {
-    width: 70%;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    font-size: 2.7rem; 
-    margin-left: 7rem;
-}
+
 body{
     background-color: #d0e961;
 }
@@ -226,12 +219,7 @@ td{
             font-size: 1.5rem;    
         }
       
-    .parrafo2 {
-            margin-left: 3rem;
-            width: 80%;
-            font-size: 1.5rem;
-            margin-top: 5rem;
-        }       
+     
     .navegacion {
         display: flex;
         flex-direction: row;
@@ -265,19 +253,13 @@ td{
     }
     
     .parrafo1 {
-        padding-top: 3rem;
+        padding-top: 1rem;
         margin-left: 4rem;
         width: 80%;
         font-size: 1.8rem;    
     }
     
-    .parrafo2 {
-        margin-left: 4rem;
-        width: 80%;
-        font-size: 1.8rem;
-        margin-top: 5rem;
-    }
-    .formulario{
+   .formulario{
         width: 600px; 
     }
     .productos{
@@ -292,7 +274,7 @@ td{
                  align-items: center;
              }
              .abejas{
-                 display: flex;
+                display: flex;
                 width: 1550px;
                 height: 700px;
                 }
@@ -302,14 +284,10 @@ td{
             }
             
             .parrafo1 {
-                width: 50%;
-                font-size: 1.7rem;    
+                width: 90%;
+                font-size: 1.2rem;    
             }
             
-            .parrafo2 {
-                width: 50%;
-                font-size: 1.7rem;
-            }
             .productos{
                 display: flex;
                 justify-content: left;
