@@ -87,14 +87,14 @@ a:visited {
 
 .parrafo2 {
     width: 70%;
-    font-family: 'Lato', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
     text-align: center;
     font-size: 2.7rem;
     margin-left: 7rem;
 }
 
 body {
-    background-color: #d0e961;
+    background-color: #96b412;
 }
 
 h2,
