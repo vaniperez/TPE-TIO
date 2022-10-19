@@ -1,10 +1,12 @@
 
 nav{
-   background-image: url(imagenes/fondo-barra-navegacion.jpg) ;
-    width: 1350px;
-    height: 100px;
+    background-image: url(imagenes/fondo-barra-navegacion.jpg) ;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .navegacion {
@@ -82,6 +84,7 @@ a:hover {
 
 body{
     background-color: #d0e961;
+    max-width: 100%;
 }
 h2, h3, li{
     font-family: 'Lato', sans-serif;
@@ -96,8 +99,9 @@ h2, h3, li{
     color: #d0e961;
     font-size: 1.5rem;
     background-image: url(imagenes/productos.jpg);
-    width: 1024px;
-    height: 250px;
+    background-size: cover;
+    max-width: 100%;
+
 }
 /*------------------------------------------FORMULARIO CONTACTO--------------------------------------------*/
 .formulario{
