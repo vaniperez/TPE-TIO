@@ -49,18 +49,22 @@ ul.navegacion.show{
     box-shadow: 0 9px #999;
     margin-right: 2rem;
     }
-  .btn_barra_navegacion:hover {background-color: #3e8e41}
   
-  .btn_barra_navegacion:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
     
 a:link, a:visited {
     text-decoration: none;
     color:#267365;
 }
+a:hover {
+    color: #3e8e41;
+}
+  
+.btn_barra_navegacion:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 .abejas{
     width: 1024px;
     height: 900px;
