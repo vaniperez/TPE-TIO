@@ -1,3 +1,11 @@
+nav {
+    background-image: url(imagenes/fondo-barra-navegacion.jpg);
+    width: 1350px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
 .navegacion {
     display: none;
 }
