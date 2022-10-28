@@ -1,9 +1,10 @@
-body{
+.container{
     background: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
     width: 100%;
+    height: 100%;
 }
 nav {
-    background-image: url(imagenes/fondo-barra-navegacion.jpg);
     width: 1350px;
     height: 100px;
     display: flex;
@@ -34,7 +35,7 @@ ul.navegacion.show {
     align-items: center;
     justify-content: space-around;
     font-family: 'Bangers';
-    font-size: 2.5rem;
+    font-size: 20px;
     color: #373a30;
     border-color: black;
     margin-left: 2rem;
@@ -50,7 +51,6 @@ ul.navegacion.show {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #4CAF50;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
@@ -76,12 +76,14 @@ a:visited {
 .abejas {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10%;
-    text-align: justify;
-    justify-content: justify;
+    margin: 5%;
+    text-align: center;
+    justify-content: center;
     color: black;
     font-weight: bolder;
     display: flex;
+    background-color: #c1ca99;
+    width: fit-content;
 }
 
 .parrafo1 {
@@ -98,10 +100,6 @@ a:visited {
     text-align: center;
     font-size: 2.7rem;
     margin-left: 7rem;
-}
-
-body {
-    background-color: #96b412;
 }
 
 h2,
@@ -266,9 +264,23 @@ td {
 }
 
 @media only screen and (min-width: 320px) {
+    .container{
+        background: url(../images/fondo.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
     .abejas {
-        width: 1300px;
-        height: 900px;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5%;
+        text-align: center;
+        justify-content: center;
+        color: black;
+        font-weight: bolder;
+        display: flex;
+        background-color: #c1ca99;
+        width: fit-content;
     }
     .parrafo1 {
         padding-top: 2rem;
@@ -301,14 +313,27 @@ td {
 }
 
 @media only screen and (min-width: 768px) {
+    .container{
+        background: url(../images/fondo.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
     nav {
-        width: 1550px;
+        width: 100%;
         height: 100px;
     }
     .abejas {
-        width: 1300px;
-        height: 800px;
-        align-items: flex-start;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5%;
+        text-align: center;
+        justify-content: center;
+        color: black;
+        font-weight: bolder;
+        display: flex;
+        background-color: #c1ca99;
+        width: fit-content;
     }
     .navegacion li {
         font-size: 2.1rem;
@@ -334,16 +359,29 @@ td {
 }
 
 @media only screen and (min-width: 1024px) {
+    .container{
+        background: url(../images/fondo.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
     nav {
-        width: 1550px;
+        width: 100%;
         height: 100px;
         display: flex;
         align-items: center;
     }
     .abejas {
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5%;
+        text-align: center;
+        justify-content: center;
+        color: black;
+        font-weight: bolder;
         display: flex;
-        width: 1550px;
-        height: 700px;
+        background-color: #c1ca99;
+        width: fit-content;
     }
     .navegacion li {
         font-size: 2.1rem;
