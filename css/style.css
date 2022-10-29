@@ -1,14 +1,29 @@
-.container{
+body{
     background: url(../images/fondo.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     width: 100%;
     height: 100%;
+}
+p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: justify;
+    background-color: #c1ca99;
+}
+h1, h2{
+    color:#d0e961;
+    font-weight: bolder;
 }
 nav {
     width: 1350px;
     height: 100px;
     display: flex;
     align-items: center;
+    opacity: .8;
+    background-color: #999;
 }
 
 .navegacion {
@@ -79,11 +94,9 @@ a:visited {
     margin: 5%;
     text-align: center;
     justify-content: center;
-    color: black;
-    font-weight: bolder;
     display: flex;
     background-color: #c1ca99;
-    width: fit-content;
+    width: max-content;
 }
 
 .parrafo1 {
@@ -118,6 +131,7 @@ li {
     background-image: url(imagenes/productos.jpg);
     width: 1024px;
     height: 250px;
+    margin: 2%;
 }
 
 
@@ -204,6 +218,7 @@ li {
 .inline1 {
     font-weight: bolder;
     font-size: larger;
+    background-color: #c1ca99;
 }
 
 h2 {
@@ -264,9 +279,11 @@ td {
 }
 
 @media only screen and (min-width: 320px) {
-    .container{
+    body{
         background: url(../images/fondo.jpg);
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
         width: 100%;
         height: 100%;
     }
@@ -280,7 +297,7 @@ td {
         font-weight: bolder;
         display: flex;
         background-color: #c1ca99;
-        width: fit-content;
+        width: max-content;
     }
     .parrafo1 {
         padding-top: 2rem;
@@ -313,15 +330,18 @@ td {
 }
 
 @media only screen and (min-width: 768px) {
-    .container{
+    body{
         background: url(../images/fondo.jpg);
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
         width: 100%;
         height: 100%;
     }
     nav {
         width: 100%;
         height: 100px;
+        opacity: .8;
     }
     .abejas {
         font-size: large;
@@ -333,7 +353,7 @@ td {
         font-weight: bolder;
         display: flex;
         background-color: #c1ca99;
-        width: fit-content;
+        width: max-content;
     }
     .navegacion li {
         font-size: 2.1rem;
@@ -359,9 +379,11 @@ td {
 }
 
 @media only screen and (min-width: 1024px) {
-    .container{
+    body{
         background: url(../images/fondo.jpg);
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
         width: 100%;
         height: 100%;
     }
@@ -370,6 +392,8 @@ td {
         height: 100px;
         display: flex;
         align-items: center;
+        opacity: .8;
+        background-color: #999;
     }
     .abejas {
         font-size: large;
@@ -381,7 +405,7 @@ td {
         font-weight: bolder;
         display: flex;
         background-color: #c1ca99;
-        width: fit-content;
+        width: max-content;
     }
     .navegacion li {
         font-size: 2.1rem;
