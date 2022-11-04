@@ -11,6 +11,6 @@ Secciones: Home - Productos - Servicios - Contacto
 
 
 Productos:lista los productos y permite realizar un ABM de los mismos.
-Servicios: detalla los servicios ofrecidos tales como extraccioón, envasado Tificaccion
-Contacto: formulario para enviar los datos verificado cin un captcha
+Servicios: detalla los servicios ofrecidos tales como extracción, envasado Tipificación
+Contacto: formulario para enviar los datos verificado con un captcha
 
