@@ -1,10 +1,12 @@
 
 nav{
-   background-image: url(imagenes/fondo-barra-navegacion.jpg) ;
-    width: 1350px;
-    height: 100px;
+    background-image: url(imagenes/fondo-barra-navegacion.jpg) ;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .navegacion {
@@ -49,18 +51,22 @@ ul.navegacion.show{
     box-shadow: 0 9px #999;
     margin-right: 2rem;
     }
-  .btn_barra_navegacion:hover {background-color: #3e8e41}
   
-  .btn_barra_navegacion:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
     
 a:link, a:visited {
     text-decoration: none;
     color:#267365;
 }
+a:hover {
+    color: #3e8e41;
+}
+  
+.btn_barra_navegacion:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 .abejas{
     width: 1024px;
     height: 900px;
@@ -77,10 +83,12 @@ a:link, a:visited {
 
 
 body{
-    background-color: #8bf594;
+    background-color: #d0e961;
 }
 h2, h3, li{
     font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.3rem;
     margin-right:3rem;
 
 }
@@ -92,8 +100,8 @@ h2, h3, li{
     color: #d0e961;
     font-size: 1.5rem;
     background-image: url(imagenes/productos.jpg);
-    width: 1024px;
-    height: 250px;
+    background-size: cover;
+    max-width: 100%;
 }
 /*------------------------------------------FORMULARIO CONTACTO--------------------------------------------*/
 .formulario{
