@@ -113,8 +113,8 @@ a:visited {
 }
 
 .parrafo1 {
-    width: 70%;
     font-family: 'Lato', sans-serif;
+<<<<<<< HEAD
     text-align: center;
     font-size: 2.7rem;
     margin-left: 7rem;
@@ -131,6 +131,18 @@ a:visited {
 h2,
 h3,
 li {
+=======
+    text-align: justify;
+    font-size:1rem; 
+    margin-left: 7rem;   
+}
+
+
+body{
+    background-color: #8bf594;
+}
+h2, h3, li{
+>>>>>>> origin/HomeRelease
     font-family: 'Lato', sans-serif;
     margin-right: 3rem;
 }
@@ -321,6 +333,7 @@ td {
         width: fit-content;
     }
     .parrafo1 {
+<<<<<<< HEAD
         padding-top: 2rem;
         margin-left: 3rem;
         width: 80%;
@@ -332,6 +345,15 @@ td {
         font-size: 1.5rem;
         margin-top: 5rem;
     }
+=======
+            padding-top: 2rem;
+            margin-left: 3rem;
+            width: 80%;
+            font-size: 1.5rem;    
+        }
+      
+     
+>>>>>>> origin/HomeRelease
     .navegacion {
         display: flex;
         flex-direction: row;
@@ -380,11 +402,12 @@ td {
         font-size: 2.1rem;
     }
     .parrafo1 {
-        padding-top: 3rem;
+        padding-top: 1rem;
         margin-left: 4rem;
         width: 80%;
         font-size: 1.8rem;
     }
+<<<<<<< HEAD
     .parrafo2 {
         margin-left: 4rem;
         width: 80%;
@@ -393,9 +416,15 @@ td {
     }
     .formulario {
         width: 600px;
+=======
+    
+   .formulario{
+        width: 600px; 
+>>>>>>> origin/HomeRelease
     }
     .productos {
         height: 350px;
+<<<<<<< HEAD
     }
 }
 
@@ -468,3 +497,58 @@ td {
         height: 300px;
     }
 }
+=======
+    }    
+   }
+@media only screen and (min-width: 1024px){ 
+            nav{
+                 width: 1550px;
+                 height: 100px;
+                 display: flex;
+                 align-items: center;
+             }
+             .abejas{
+                display: flex;
+                width: 1550px;
+                height: 700px;
+                }
+
+            .navegacion li {
+                font-size: 2.1rem;
+            }
+            
+            .parrafo1 {
+                width: 90%;
+                font-size: 1.2rem;    
+            }
+            
+            .productos{
+                display: flex;
+                justify-content: left;
+                align-items: flex-start;
+                color: #d0e961;
+                font-size: 1.5rem;
+                background-repeat: no-repeat;
+                width: 1550px;
+                height: 700px;
+            }
+            .formulario{
+                width: 800px; 
+                margin: auto;
+                min-height: 900px;
+                margin-left: 3rem;
+                padding: 1rem;
+                border-radius: .5rem;
+            }
+            .campo textarea{
+                height: 18rem;
+            }
+            .input-text{
+                width: 90%;
+                padding: 1rem;
+            }
+            .productos{
+                height: 300px;
+            }                    
+             }
+>>>>>>> origin/HomeRelease
