@@ -1,37 +1,10 @@
-body{
-    background: url(../images/fondo.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-footer{
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    color: black;
-    text-align: center;
-    justify-content: center;
-}
-p{
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: justify;
-    background-color: #c1ca99;
-}
-h1, h2{
-    color:#d0e961;
-    font-weight: bolder;
-}
-nav {
+
+nav{
+   background-image: url(imagenes/fondo-barra-navegacion.jpg) ;
     width: 1350px;
     height: 100px;
     display: flex;
     align-items: center;
-    opacity: .8;
-    background-color: #999;
 }
 
 .navegacion {
@@ -78,28 +51,23 @@ ul.navegacion.show {
     border-radius: 15px;
     box-shadow: 0 9px #999;
     margin-right: 2rem;
-}
-
-.btn_barra_navegacion:hover {
-    background-color: #3e8e41
-}
-
-.btn_barra_navegacion:active {
+    }
+  .btn_barra_navegacion:hover {background-color: #3e8e41}
+  
+  .btn_barra_navegacion:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-}
-
-a:link,
-a:visited {
+  }
+    
+a:link, a:visited {
     text-decoration: none;
     color: #267365;
 }
-
-.abejas {
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 5%;
+.abejas{
+    width: 1024px;
+    height: 900px;
+    background-image: url(imagenes/abejas-editada.jpg);
     text-align: center;
     justify-content: center;
     display: flex;
@@ -108,26 +76,26 @@ a:visited {
 }
 
 .parrafo1 {
-    width: 70%;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    font-size: 2.7rem;
-    margin-left: 7rem;
+    font-size: 2.7rem;  
+    margin-left: 7rem;   
 }
 
 .parrafo2 {
     width: 70%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
-    font-size: 2.7rem;
+    font-size: 2.7rem; 
     margin-left: 7rem;
 }
-
-h2,
-h3,
-li {
+body{
+    background-color: #d0e961;
+}
+h2, h3, li{
     font-family: 'Lato', sans-serif;
-    margin-right: 3rem;
+    margin-right:3rem;
+
 }
 
 .productos {
@@ -139,7 +107,6 @@ li {
     background-image: url(imagenes/productos.jpg);
     width: 1024px;
     height: 250px;
-    margin: 2%;
 }
 
 
@@ -308,17 +275,18 @@ td {
         width: fit-content;
     }
     .parrafo1 {
-        padding-top: 2rem;
-        margin-left: 3rem;
-        width: 80%;
-        font-size: 1.5rem;
-    }
+            padding-top: 2rem;
+            margin-left: 3rem;
+            width: 80%;
+            font-size: 1.5rem;    
+        }
+      
     .parrafo2 {
-        margin-left: 3rem;
-        width: 80%;
-        font-size: 1.5rem;
-        margin-top: 5rem;
-    }
+            margin-left: 3rem;
+            width: 80%;
+            font-size: 1.5rem;
+            margin-top: 5rem;
+        }       
     .navegacion {
         display: flex;
         flex-direction: row;
@@ -367,91 +335,77 @@ td {
         font-size: 2.1rem;
     }
     .parrafo1 {
-        padding-top: 3rem;
+        padding-top: 1rem;
         margin-left: 4rem;
         width: 80%;
         font-size: 1.8rem;
     }
+    
     .parrafo2 {
         margin-left: 4rem;
         width: 80%;
         font-size: 1.8rem;
         margin-top: 5rem;
     }
-    .formulario {
-        width: 600px;
+    .formulario{
+        width: 600px; 
     }
     .productos {
         height: 350px;
-    }
-}
+    }    
+   }
+@media only screen and (min-width: 1024px){ 
+            nav{
+                 width: 1550px;
+                 height: 100px;
+                 display: flex;
+                 align-items: center;
+             }
+             .abejas{
+                 display: flex;
+                width: 1550px;
+                height: 700px;
+                }
 
-@media only screen and (min-width: 1024px) {
-    body{
-        background: url(../images/fondo.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-    nav {
-        width: 100%;
-        height: 100px;
-        display: flex;
-        align-items: center;
-        opacity: .8;
-        background-color: #999;
-    }
-    .abejas {
-        font-size: large;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 5%;
-        text-align: center;
-        justify-content: center;
-        color: black;
-        font-weight: bolder;
-        display: flex;
-        background-color: #c1ca99;
-        width: fit-content;
-    }
-    .navegacion li {
-        font-size: 2.1rem;
-    }
-    .parrafo1 {
-        width: 50%;
-        font-size: 1.7rem;
-    }
-    .parrafo2 {
-        width: 50%;
-        font-size: 1.7rem;
-    }
-    .productos {
-        display: flex;
-        justify-content: left;
-        align-items: flex-start;
-        color: #d0e961;
-        font-size: 1.5rem;
-        background-repeat: no-repeat;
-        width: 1550px;
-        height: 700px;
-    }
-    .formulario {
-        width: 800px;
-        margin: auto;
-        min-height: 900px;
-        margin-left: 3rem;
-        padding: 1rem;
-        border-radius: .5rem;
-    }
-    .campo textarea {
-        height: 18rem;
-    }
-    .input-text {
-        width: 90%;
-        padding: 1rem;
-    }
-    .productos {
-        height: 300px;
-    }
-}
+            .navegacion li {
+                font-size: 2.1rem;
+            }
+            
+            .parrafo1 {
+                width: 50%;
+                font-size: 1.7rem;    
+            }
+            
+            .parrafo2 {
+                width: 50%;
+                font-size: 1.7rem;
+            }
+            .productos{
+                display: flex;
+                justify-content: left;
+                align-items: flex-start;
+                color: #d0e961;
+                font-size: 1.5rem;
+                background-repeat: no-repeat;
+                width: 1550px;
+                height: 700px;
+            }
+            .formulario{
+                width: 800px; 
+                margin: auto;
+                min-height: 900px;
+                margin-left: 3rem;
+                padding: 1rem;
+                border-radius: .5rem;
+            }
+            .campo textarea{
+                height: 18rem;
+            }
+            .input-text{
+                width: 90%;
+                padding: 1rem;
+            }
+            .productos{
+                height: 300px;
+            }                    
+             }

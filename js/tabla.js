@@ -23,7 +23,7 @@ async function mostrarTabla() {
         tbProductos.innerHTML += `<tr>
                                       <td>${item}</td>
                                       <td>${cantidad}</td>
-                                      <td><button class="botonEliminar" type="button" data-id=${id}>ELiminar</button> 
+                                      <td><button class="botonEliminar" type="button" data-id=${id}>Eliminar</button> 
                                           <button class="botonEditar" type="button" data-id=${id}>Editar</button>
                                       </td> 
                                   </tr>`;
