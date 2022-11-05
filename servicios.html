@@ -1,53 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lato:ital,wght@1,300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Servicios</title>
 </head>
-<body>
-    <nav>
-        <div class="logo">
-              <h1 class="apicola-titulo">Apicola de la Sierra</h1>
-              <button class="btn_barra_navegacion"><a>MENU</a></button>
-        </div> 
-          
-          <ul class="navegacion">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-    </nav>
 
-    <h2>Diferentes servicios</h2>
-    <div class="lista-servicios">
-        <ul>
-            <li class="item-servicio"><span class="inline1">Extracción</span>
-                <p>El extractor de miel es un elemento indispensable en apicultura, desde el pequeño productor hasta los profesionales necesitan esta herramienta, dimensionada según el tamaño de su explotación. Nuestra empresa cuenta con extractor con eje horizontal integrados de gran capacidad y que permiten la carga y descarga de los cuadros sin apenas manipulación emplazado en sala de extracción certificada por SENASA</p>
-                <img src="images/extractor.jpg" alt="Extractor por canasta radial">
-            </li>
-     
-            <li class="item-servicio" ><span class="inline1">Envasado</span> 
-                <p>Limpieza, precisión, posibilidad de trabajar con mieles de distinta viscosidad y buen rendimiento y que no emulsione la miel, son las características que deben tener lasa envasadoras de miel</p>
-                <img src="images/envasado-miel.jpg" alt="Envasado">
-        
-            </li>
-            <li class="item-servicio"><span class="inline1">Tipificación de mieles</span>
-                <p>Nuestra empresa ofrece al productor apícola este servicio para que pueda certificar la calidad de sus productos, brindando con ello una herramienta para agregar valor a la miel y abordar nuevos mercados. Con esta información aportada por nuestro equipo de profesionales se contribuye a fomentar la producción de mieles diferenciadas por su origen botánico, ya que la tendencia mundial es hacia el consumo de este tipo de productos</p>
-                <img src="images/tipificacion.jpeg" alt="Tipificación de mieles">
-                <img src="images/polen.jpg" alt="granos de polen">
-            </li>
-    
-        </ul>
-    </div>
-<h3>Tabla de precios de nuestro servicios</h3>
-        <table>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1 class="apicola-titulo">Apicola de la Sierra </h1>
+                <button class="btn_barra_navegacion"><a>MENU</a></button>
+            </div>
+            <ul class="navegacion">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="beneficios.html">Beneficios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <h2>Diferentes servicios</h2>
+        <div class="lista-servicios">
+            <ul>
+                <li class="item-servicio"><span class="inline1">Extracción</span>
+                    <p>El extractor de miel es un elemento indispensable en apicultura, desde el pequeño productor hasta
+                        los
+                        profesionales necesitan esta herramienta, dimensionada según el tamaño de su explotación.
+                        Nuestra
+                        empresa cuenta con extractor con eje
+                        horizontal integrados de gran capacidad y que permiten la carga y descarga de los cuadros sin
+                        apenas
+                        manipulación emplazado en sala de extracción certificada por SENASA</p>
+                    <img src="images/extractor.jpg" alt="Extractor por canasta radial">
+                </li>
+
+                <li class="item-servicio"><span class="inline1">Envasado</span>
+                    <p>Limpieza, precisión, posibilidad de trabajar con mieles de distinta viscosidad y buen rendimiento
+                        y
+                        que no emulsione la miel, son las características que deben tener lasa envasadoras de miel</p>
+                    <img src="images/envasado-miel.jpg" alt="Envasado">
+
+                </li>
+                <li class="item-servicio"><span class="inline1">Tipificación de mieles</span>
+                    <p>Nuestra empresa ofrece al productor apícola este servicio para que pueda certificar la calidad de
+                        sus
+                        productos, brindando con ello una herramienta para agregar valor a la miel y abordar nuevos
+                        mercados. Con esta información aportada por
+                        nuestro equipo de profesionales se contribuye a fomentar la producción de mieles diferenciadas
+                        por
+                        su origen botánico, ya que la tendencia mundial es hacia el consumo de este tipo de productos
+                    </p>
+                    <img src="images/tipificacion.jpeg" alt="Tipificación de mieles">
+                    <img src="images/polen.jpg" alt="granos de polen">
+                </li>
+
+            </ul>
+        </div>
+        <h3 class="h3-precios-servicios">Tabla de precios de nuestro servicios</h3>
+        <table class="tabla-precios-servicios">
             <thead>
                 <tr>
                     <td>Servicio</td>
@@ -60,13 +81,18 @@
                     <td>100kg</td>
                 </tr>
                 <tr>
-                    <td>Tipificaciónde miel/10 muestras</td>
+                    <td>Tipificación de miel/10 muestras</td>
                     <td>20 kg</td>
                 </tr>
-                    <td>Envasado 100Kg/1Kg</td>
-                    <td>30kg</td>
+                <td>Envasado 100Kg/1Kg</td>
+                <td>30kg</td>
             </tbody>
         </table>
+    </div>
+    <footer>
+        <h3>Apícola de la Sierra</h3>
+        <h3>Teléfono de contacto: 2494-563838</h3>
+    </footer>
 </body>
 <script type="text/javascript" src="js/barra_navegacion.js"></script>
 
