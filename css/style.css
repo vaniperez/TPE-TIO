@@ -67,9 +67,15 @@ ul.navegacion.show {
     align-items: center;
     justify-content: space-around;
     font-family: 'Bangers';
+<<<<<<< HEAD
+    font-size: 2.5rem;
+    color:#62512e;
+    border-color: rgb(77, 49, 49);
+=======
     font-size: 20px;
     color: #373a30;
     border-color: black;
+>>>>>>> 28a727b85dd62f8b7bfc057e111341c69dbe37b3
     margin-left: 2rem;
 }
 
