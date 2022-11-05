@@ -29,8 +29,8 @@ ul.navegacion.show{
     justify-content: space-around;
     font-family: 'Bangers';
     font-size: 2.5rem;
-    color:#47532a;
-    border-color: black;
+    color:#62512e;
+    border-color: rgb(77, 49, 49);
     margin-left: 2rem;
    }
    .btn_barra_navegacion { 
